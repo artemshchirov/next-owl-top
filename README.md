@@ -1,18 +1,42 @@
-# Brainmade
+# Owl Top
 
 ## About
 
-Разработка стильных сайтов и приложений для вашего бизнеса. \
-Упакуем ваш бизнес в креативный сайт, который будет приносить клиентов.
+Web app for observing independent rating of schools and courses.
 
 ## Tech
 
-- React.js
 - Next.js
+- React.js
 - TypeScript
+- CSS Modules
 - ESLint
 - Stylelint
+- Framer Motion animations
 
 ## TODO
 
-[ ] - MB Grotesk font
+- [x] Environment settings
+- [x] TypeScript
+- [x] Simple components
+- [ ] Stateful components
+- [ ] HOC components
+- [ ] CSS Grid
+- [ ] Server Side Rendering
+- [ ] Context
+- [ ] Routing
+- [ ] Products page
+- [ ] Product components
+- [ ] Forms
+- [ ] Framer Motion animation
+- [ ] Accessibility
+- [ ] Set links and meta tags
+- [ ] Deploy
+
+## Run project locally
+
+```bash
+yarn install
+yarn build
+yarn start
+```

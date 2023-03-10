@@ -8,11 +8,11 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 			<Head>
 				<title>Owl Top</title>
 				<link rel='icon' href='/favicon.ico' />
-				<link rel='preconnect' href='https://fonts.gstatic.com' />
-				<link
-					href='https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap'
-					rel='stylesheet'
-				/>
+				{/* TODO on every page all above and below tags
+				<link rel='canonical' href='#' />
+				<meta name='keywords' content='#' />
+				<meta name='robots' content='#' />
+				<meta name='google-site-verification' content='#' /> */}
 			</Head>
 			<Component {...pageProps} />
 		</>
