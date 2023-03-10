@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 			<Head>
 				<title>Owl Top</title>
 				<link rel='icon' href='/favicon.ico' />
+				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				{/* TODO on every page all above and below tags
 				<link rel='canonical' href='#' />
 				<meta name='keywords' content='#' />

@@ -25,7 +25,6 @@ export default class MyDocument extends Document {
 						rel='stylesheet'
 					/>
 					<meta charSet='utf-8' />
-					<meta name='viewport' content='width=device-width, initial-scale=1' />
 					<meta
 						name='description'
 						content='Web app for observing independent rating of schools and courses'

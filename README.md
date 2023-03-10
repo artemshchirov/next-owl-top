@@ -30,7 +30,7 @@ Web app for observing independent rating of schools and courses.
 - [ ] Forms
 - [ ] Framer Motion animation
 - [ ] Accessibility
-- [ ] Set links and meta tags
+- [ ] SEO optimization
 - [ ] Deploy
 
 ## Run project locally
