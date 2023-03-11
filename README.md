@@ -19,9 +19,10 @@ Web app for observing independent rating of schools and courses.
 - [x] Environment settings
 - [x] TypeScript
 - [x] Simple components
-- [ ] Stateful components
-- [ ] HOC components
-- [ ] CSS Grid
+- [x] Stateful components
+- [x] Layout
+- [x] HOC component
+- [x] CSS Grid
 - [ ] Server Side Rendering
 - [ ] Context
 - [ ] Routing
