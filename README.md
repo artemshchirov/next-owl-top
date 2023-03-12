@@ -23,8 +23,8 @@ Web app for observing independent rating of schools and courses.
 - [x] Layout
 - [x] HOC component
 - [x] CSS Grid
-- [ ] Server Side Rendering
-- [ ] Context
+- [x] Server Side Rendering
+- [x] Context
 - [ ] Routing
 - [ ] Products page
 - [ ] Product components
