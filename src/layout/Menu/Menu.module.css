@@ -41,7 +41,6 @@
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 1.33;
-
 }
 
 .secondBlock {
@@ -55,11 +54,15 @@
 }
 
 .secondLevelBlock {
-	overflow: hidden;
+	display: none;
+}
 
-	padding: 0;
+.secondLevelBlockOpened {
+	display: block;
+}
 
-	list-style: none;
+.secondLevelBlockOpened:last-child {
+	margin-bottom: 20px;
 }
 
 .thirdLevel {
@@ -75,7 +78,6 @@
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 1.35;
-
 }
 
 .thirdLevelActive,

@@ -13,8 +13,8 @@ export function Button({
 	return (
 		<button
 			className={cn(styles.button, className, {
-				[styles.primary]: appearance == 'primary',
-				[styles.ghost]: appearance == 'ghost',
+				[styles.primary]: appearance === 'primary',
+				[styles.ghost]: appearance === 'ghost',
 			})}
 			{...props}
 		>
