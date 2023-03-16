@@ -14,7 +14,19 @@ Web app for observing independent rating of schools and courses.
 - Stylelint
 - Framer Motion animations
 
+## Run project locally
+
+```bash
+git clone https://github.com/artemshchirov/next-owl-top.git
+cd next-owl-top/
+yarn install
+yarn build
+yarn start
+```
+
 ## TODO
+
+### Features
 
 - [x] Environment settings
 - [x] TypeScript
@@ -25,7 +37,7 @@ Web app for observing independent rating of schools and courses.
 - [x] CSS Grid
 - [x] Server Side Rendering
 - [x] Context
-- [ ] Routing
+- [x] Routing
 - [ ] Products page
 - [ ] Product components
 - [ ] Forms
@@ -34,10 +46,6 @@ Web app for observing independent rating of schools and courses.
 - [ ] SEO optimization
 - [ ] Deploy
 
-## Run project locally
+### Fix
 
-```bash
-yarn install
-yarn build
-yarn start
-```
+- [ ] Sidebar first level
