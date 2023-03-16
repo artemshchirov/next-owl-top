@@ -38,7 +38,7 @@ yarn start
 - [x] Server Side Rendering
 - [x] Context
 - [x] Routing
-- [ ] Products page
+- [x] Products page
 - [ ] Product components
 - [ ] Forms
 - [ ] Framer Motion animation
