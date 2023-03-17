@@ -3,6 +3,7 @@ export * from './Button/Button';
 export * from './HhData/HhData';
 export * from './Htag/Htag';
 export * from './Rating/Rating';
+export * from './Sort/Sort';
 export * from './Tag/Tag';
 export * from './Text/Text';
 

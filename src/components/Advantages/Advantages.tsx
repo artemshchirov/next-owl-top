@@ -2,7 +2,7 @@ import styles from "./Advantages.module.css";
 import { AdvantagesProps } from "./AdvantagesProps.props";
 import CheckIcon from "./check.svg";
 
-export function Advantages({ advantages }: AdvantagesProps): JSX.Element {
+export const Advantages = ({ advantages }: AdvantagesProps): JSX.Element => {
 	return (
 		<>
 			{advantages.map(a => (
@@ -15,4 +15,4 @@ export function Advantages({ advantages }: AdvantagesProps): JSX.Element {
 			))}
 		</>
 	);
-}
+};
