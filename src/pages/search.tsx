@@ -4,7 +4,7 @@ import { MenuItem } from '../interfaces/menu.interface';
 import { withLayout } from '../layout/Layout';
 
 function Search(): JSX.Element {
-	return <></>;
+	return <>Search</>;
 }
 
 export default withLayout(Search);

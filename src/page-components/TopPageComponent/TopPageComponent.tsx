@@ -26,9 +26,9 @@ export const TopPageComponent = ({
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.title}>
-				<Htag tag="h1">{page.title}</Htag>
+				<Htag tag='h1'>{page.title}</Htag>
 				{products && (
-					<Tag color="grey" size="md">
+					<Tag color='grey' size='md'>
 						{products.length}
 					</Tag>
 				)}
@@ -39,8 +39,8 @@ export const TopPageComponent = ({
 					sortedProducts.map(p => <div key={p._id}>{p.title}</div>)}
 			</div>
 			<div className={styles.hhTitle}>
-				<Htag tag="h2">Jobs - {page.category}</Htag>
-				<Tag color="red" size="md">
+				<Htag tag='h2'>Jobs - {page.category}</Htag>
+				<Tag color='red' size='md'>
 					hh.ua
 				</Tag>
 			</div>
@@ -49,7 +49,7 @@ export const TopPageComponent = ({
 			)}
 			{page.advantages && page.advantages.length > 0 && (
 				<>
-					<Htag tag="h2">Advantages</Htag>
+					<Htag tag='h2'>Advantages</Htag>
 					<Advantages advantages={page.advantages} />
 				</>
 			)}
@@ -59,9 +59,9 @@ export const TopPageComponent = ({
 					dangerouslySetInnerHTML={{ __html: page.seoText }}
 				/>
 			)}
-			<Htag tag="h2">Received skills</Htag>
+			<Htag tag='h2'>Received skills</Htag>
 			{page.tags.map(t => (
-				<Tag key={t} color="primary">
+				<Tag key={t} color='primary'>
 					{t}
 				</Tag>
 			))}

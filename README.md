@@ -39,6 +39,7 @@ yarn start
 - [x] Context
 - [x] Routing
 - [x] Products page
+- [x] Search
 - [ ] Product components
 - [ ] Forms
 - [ ] Framer Motion animation
