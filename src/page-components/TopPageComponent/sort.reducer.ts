@@ -1,4 +1,4 @@
-import { SortEnum } from '../../components/Sort/SortProps.props';
+import { SortEnum } from '../../components/Sort/Sort.props';
 import { ProductModel } from '../../interfaces/product.interface';
 
 export type SortActions = { type: SortEnum.Price } | { type: SortEnum.Rating };

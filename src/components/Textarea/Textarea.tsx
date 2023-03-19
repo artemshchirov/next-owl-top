@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import styles from './Textarea.module.css';
-import { TextareaProps } from './TextareaProps.props';
+import { TextareaProps } from './Textarea.props';
 
 export const Textarea = ({
 	className,

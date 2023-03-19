@@ -1,6 +1,6 @@
 import cn from "classnames";
 import styles from "./Button.module.css";
-import { ButtonProps } from "./ButtonProps.props";
+import { ButtonProps } from "./Button.props";
 import ArrowIcon from "./arrow.svg";
 
 export const Button = ({

@@ -1,6 +1,6 @@
 import cn from "classnames";
 import styles from "./Htag.module.css";
-import { HtagProps } from "./HtagProps.props";
+import { HtagProps } from "./Htag.props";
 
 export const Htag = ({
 	tag,

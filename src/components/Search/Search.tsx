@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Button } from '../Button/Button';
 import { Input } from '../Input/Input';
 import styles from './Search.module.css';
-import { SearchProps } from './SearchProps.props';
+import { SearchProps } from './Search.props';
 import GlassIcon from './glass.svg';
 
 export const Search = ({ className, ...props }: SearchProps): JSX.Element => {

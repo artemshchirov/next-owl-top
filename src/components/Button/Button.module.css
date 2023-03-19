@@ -5,7 +5,7 @@
 	padding: 10px;
 
 	cursor: pointer;
-	transition: all 0.2s;
+	transition: all 0.3s;
 	text-align: center;
 
 	border: none;
@@ -38,8 +38,6 @@
 	display: inline-block;
 
 	margin-left: 10px;
-
-	transition: all 0.2s;
 }
 
 .down {
@@ -48,5 +46,7 @@
 
 .primary svg,
 .ghost:hover svg {
+	transition: all 0.3s;
+
 	fill: var(--white);
 }

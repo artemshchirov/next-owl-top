@@ -1,5 +1,5 @@
 import cn from "classnames";
-import { CardProps } from "./CardProps.props";
+import { CardProps } from "./Card.props";
 import styles from "./Card.module.css";
 
 export const Card = ({

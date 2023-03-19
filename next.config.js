@@ -10,6 +10,15 @@ const nextConfig = {
 
 		return config;
 	},
+	images: {
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 'courses-top.ru',
+				pathname: '*',
+			},
+		],
+	},
 };
 
 module.exports = nextConfig;

@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import styles from './Text.module.css';
-import { TextProps } from './TextProps.props';
+import { TextProps } from './Text.props';
 
 export const Text = ({
 	size = 'md',

@@ -3,7 +3,7 @@ import { AppContextProvider, IAppContext } from '../context/app.context';
 import { Footer } from './Footer/Footer';
 import { Header } from './Header/Header';
 import styles from './Layout.module.css';
-import { LayoutProps } from './LayoutProps.props';
+import { LayoutProps } from './Layout.props';
 import { Sidebar } from './Sidebar/Sidebar';
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {

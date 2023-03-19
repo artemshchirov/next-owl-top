@@ -1,7 +1,7 @@
-import cn from "classnames";
-import styles from "./Sort.module.css";
-import { SortEnum, SortProps } from "./SortProps.props";
-import SortIcon from "./sort.svg";
+import cn from 'classnames';
+import styles from './Sort.module.css';
+import { SortEnum, SortProps } from './Sort.props';
+import SortIcon from './sort.svg';
 
 export const Sort = ({
 	sort,
