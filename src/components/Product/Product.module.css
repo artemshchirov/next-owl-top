@@ -1,0 +1,154 @@
+.product {
+	display: grid;
+
+	margin-bottom: 30px;
+	padding: 30px;
+
+	grid-template-columns:
+		[start] 70px [logoend] 30px [titlestart] calc(50% - 100px)
+		[middle] 1fr [pricestart] auto [priceend] 40px [creditstart] auto [creditend] 40px [ratingstart] auto [end];
+}
+
+.logo {
+	position: relative;
+
+	grid-column: start / logoend;
+	grid-row: 1 / span 2;
+}
+
+.title,
+.tags {
+	grid-column: titlestart / middle;
+}
+
+.price,
+.priceTitle {
+	grid-column: pricestart / priceend;
+}
+
+.credit,
+.creditTitle {
+	grid-column: creditstart / creditend;
+}
+
+.rating,
+.ratingTitle {
+	grid-column: ratingstart / end;
+}
+
+.hline,
+.description,
+.actions {
+	grid-column: start / end;
+}
+
+.feature {
+	grid-column: start / middle;
+}
+
+.advBlock {
+	grid-column: middle / end;
+
+	font-size: 16px;
+	line-height: 1.37;
+}
+
+.logo img {
+	object-fit: contain;
+
+	border-radius: 5px;
+}
+
+.title {
+	align-self: flex-end;
+
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.35;
+}
+
+.category {
+	margin-top: 7px;
+}
+
+.price,
+.credit {
+	align-self: flex-end;
+
+	font-size: 20px;
+	line-height: 1.35;
+}
+
+.oldPrice {
+	margin-left: 5px;
+}
+
+.rating {
+	align-self: flex-end;
+}
+
+.description {
+	margin-bottom: 15px;
+
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.priceTitle,
+.creditTitle,
+.ratingTitle {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.35;
+}
+
+.month {
+	font-size: 14px;
+	line-height: 1.35;
+}
+
+.reviewButton {
+	margin-left: 20px;
+}
+
+.advTitle {
+	margin-bottom: 5px;
+
+	font-weight: bold;
+}
+
+.advantages {
+	margin-bottom: 20px;
+	padding-left: 15px;
+
+	border-left: 2px solid var(--green);
+}
+
+.disadvantages {
+	padding-left: 15px;
+
+	border-left: 2px solid var(--red);
+}
+
+.characteristics {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	gap: 10px;
+
+	align-items: baseline;
+
+	padding-right: 60px;
+
+	font-size: 16px;
+	line-height: 2;
+}
+
+.characteristicName {
+	font-weight: bold;
+}
+
+.characteristicDots {
+	margin-bottom: 5px;
+
+	border-bottom: 1px dashed var(--gray-light);
+}
